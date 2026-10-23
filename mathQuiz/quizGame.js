@@ -110,7 +110,7 @@ else {
 
 // Question 5: [ What is your favorite color? ]
 // Answer: red
-const myFavColor = prompt("What is Cristian's favorite color? (e.g. blue, red, yellow)");
+const myFavColor = prompt("What is Cristian's favorite color? (e.g., blue, red, yellow)");
 
 if (myFavColor.trim() .toLowerCase() === "red") {
     alert("Correct!");
