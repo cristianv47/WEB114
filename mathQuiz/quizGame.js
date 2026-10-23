@@ -110,7 +110,7 @@ else {
 
 // Question 5: [ What is your favorite color? ]
 // Answer: red
-const myFavColor = prompt("What is Cristian's favorite color?");
+const myFavColor = prompt("What is Cristian's favorite color? (e.g. blue, red, yellow)");
 
 if (myFavColor.trim() .toLowerCase() === "red") {
     alert("Correct!");
@@ -148,9 +148,11 @@ else if (finalScore === 80) {
         ${score} out of 5 correct.
         `);
 }
-// 3 / 5 correct
+// 3 / 5 correct with unique message
 else if (finalScore === 60) {
     alert(`
+        Almost there, keep going!
+        
         You got ${finalScore}%
 
         ${score} out of 5 correct.
