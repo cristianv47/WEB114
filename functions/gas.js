@@ -6,7 +6,7 @@ let username = prompt(`Enter your name`);
 
 // Validate user's name prompt input
 while (username !== null && username.trim() === "") {
-    username = prompt("Please enter your name:")
+    username = prompt("Please enter your name:");
 }
 
 if (username !== null) {
@@ -29,7 +29,7 @@ function calcGasAvg() {
 
     while (gasEntry !== -1) {
         if (Number.isNaN(gasEntry) === true) {
-            alert("Please enter a number.")
+            alert("Please enter a number.");
             gasEntry = parseFloat(prompt("Enter your first week's gas total. Enter -1 when you are done."));
         }
         else {
@@ -53,12 +53,12 @@ function calcGasAvg() {
     }
     else if (count === 1) {
         alert(`${username}'s gas total is $${total}.`);
-        alert(`You entered ${count} gas total.`)
+        alert(`You entered ${count} gas total.`);
     }
 
     else {
         alert(`${username}'s average weekly gas bill is $${average.toFixed(2)}`); // .toFixed to show decimals 
-        alert(`You entered ${count} gas totals`)
+        alert(`You entered ${count} gas totals`);
     }
     
     return average;
